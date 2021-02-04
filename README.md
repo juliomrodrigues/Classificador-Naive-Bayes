@@ -1,6 +1,6 @@
 # Classificador Naive Bayes
 #### Utilizando aprendizagem bayesiana em uma base de dados real para classificar registros(Censo de 1994 - EUA).
-#### Objetivo: Prever se um americano possui renda anual >= ou < que 50 mil dólares por ano.
+#### Objetivo: Prever se um americano possui renda anual <= ou > 50 mil dólares por ano.
 
 ### Resultados - Validação Cruzada - StratifiedKFold
 **Precisão** | **Pré-Processamentos** | **Desvio Padrão**
