@@ -1,24 +1,31 @@
 # Classificador Naive Bayes
+#### Utilizando aprendizagem bayesiana em uma base de dados real para classificar registros(Censo de 1994 - EUA).
+#### Objetivo: Prever se um americano possui renda anual >= ou < que 50 mil dólares por ano.
 
-## Usando aprendizagem bayesiana em uma base de dados real para classificar registros(Base de Dados - Censo de 1994 - EUA).
-
-## Objetivo: De acordo com os atributos, prever se uma pessoa ganha mais ou menos do que 50 mil dólares por ano.
-
-### Resultados alcançados: 
-Separando a base de dados em 85% para treinamento e 15% para testes, a taxa de precisão chegou em aproximadamente 80%.
+### Resultados - Validação Cruzada - StratifiedKFold
+**Precisão** | **Pré-Processamentos** | **Desvio Padrão**
+| :------: | :------: | :------: |
+0.7950 | LabelEncoder | 0.0083
+0.7952 | OneHotEncoder | 0.0083
+**0.8039** | **LabelEncoder + StandardScaler** | **0.0083**
+0.4778 | OneHotEncoder + StandardScaler | 0.0179
+0.4778 | LabelEnconder + OneHotEncoder + StandardScaler | 0.0179
 
 ### Bibliotecas usadas:
+- Pandas
 - Sklearn
+- Numpy
 
 ### Técnicas de Pré-Processamento e Tratamento dos dados usada:
 - LabelEnconder(transformando atributos categóricos em números)
 - StandardScaler(colocando os valores em escala)
 
-### Ferramentas usadas:
+### Ferramentas Usadas:
 - Anaconda
 - Spyder
 
 ### Linguagem:
 - Python
 
-#### Fonte da Base de Dados: Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
+#### Fonte da Base de Dados: 
+Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
