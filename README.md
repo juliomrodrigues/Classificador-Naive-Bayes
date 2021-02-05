@@ -17,8 +17,9 @@
 - Numpy
 
 ### Técnicas de Pré-Processamento e Tratamento dos dados usada:
-- LabelEnconder(transformando atributos categóricos em números)
-- StandardScaler(colocando os valores em escala)
+- LabelEnconder;
+- OneHotEncoder;
+- StandardScaler;
 
 ### Ferramentas Usadas:
 - Anaconda
