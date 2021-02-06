@@ -49,8 +49,8 @@ A diagonal principal (em negrito) destaca os registros classificados corretament
 #### Outros Classificadores:
 - [Árvore de Decisão](https://github.com/juliomrodrigues/Arvore-de-Decisao)
 - [Random Forest](https://github.com/juliomrodrigues/Random-Forest-Classificador)
-- [Regras]
-- [Instâncias(KNN)]
+- [Aprendizagem por Regras](https://github.com/juliomrodrigues/Classificador-Regras)
+- [Aprendizagem por Instâncias(KNN)](https://github.com/juliomrodrigues/Classificador-KNN)
 - [Regressão Logística](https://github.com/juliomrodrigues/Regressao-Logistica-Classificador)
-- [SVM(Máquinas de Vetores de Suporte)]
-- [Redes Neurais]
+- [SVM](https://github.com/juliomrodrigues/Classificador-SVM)
+- [Rede Neural](https://github.com/juliomrodrigues/Classificador-Rede-Neural)
