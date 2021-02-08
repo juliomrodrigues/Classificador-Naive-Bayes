@@ -1,5 +1,5 @@
 # Classificador Naive Bayes
-Utilizando aprendizagem bayesiana em uma base de dados real para classificar registros(Censo de 1994 - EUA).
+Treinando um modelo por aprendizagem bayesiana e aplicando em uma base de dados para classificar registros(Censo de 1994 - EUA).
 Objetivo: Prever se um americano possui renda anual <= ou > 50 mil dólares por ano.
 
 Base Line Classifier = 0.7559 (ZeroR)
@@ -44,7 +44,13 @@ A diagonal principal (em negrito) destaca os registros classificados corretament
 - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
 
 ### Como usar:
-- Basta fazer o download do código fonte e da base de dados. Para executar o código por partes(células) e testar diferentes possibilidades de pré-processamento, recomendo uma IDE como Spyder ou o Jupyter. (Támbem é necessário ter o Python instalado no seu computador)
+1. Faça o download do classificador ja treinado dispoível neste mesmo repositório [aqui]().
+2. Abra o arquivo.py que deseja usar o classificador ou então criar um novo.
+3. Execute o código abaixo para fazer a importação:
+~~~~python
+import pickle
+naive_bayes = pickle.load(open('classificador_naive_bayes.sav', 'rb'))
+~~~~~
 
 #### Outros Classificadores:
 - [Árvore de Decisão](https://github.com/juliomrodrigues/Arvore-de-Decisao)
