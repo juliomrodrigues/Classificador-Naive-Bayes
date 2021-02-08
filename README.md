@@ -45,12 +45,13 @@ A diagonal principal (em negrito) destaca os registros classificados corretament
 
 ### Como usar:
 1. Faça o download do classificador ja treinado dispoível neste mesmo repositório [aqui](https://github.com/juliomrodrigues/Classificador-Naive-Bayes/blob/main/classificador_naive_bayes.sav).
-2. Abra o arquivo.py que deseja usar o classificador ou então criar um novo.
+2. Abra o arquivo.py que deseja usar o classificador ou então crie um novo.
 3. Execute o código abaixo para fazer a importação:
 ~~~~python
 import pickle
 naive_bayes = pickle.load(open('classificador_naive_bayes.sav', 'rb'))
 ~~~~~
+4. Pronto, agora o classficador está pronto para ser usado.
 
 #### Outros Classificadores:
 - [Árvore de Decisão](https://github.com/juliomrodrigues/Arvore-de-Decisao)
