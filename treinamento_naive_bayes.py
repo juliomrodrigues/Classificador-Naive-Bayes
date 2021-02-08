@@ -54,4 +54,4 @@ for indice_treinamento, indice_teste in skfold.split(atributos,
 resultados = np.asarray(resultados)
 
 print(f'Média = {resultados.mean()}')
-print(f'Desvio Padrão = {resultados.std()}')
+print(f'Desvio Padrão = {resultados.std()}') 
