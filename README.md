@@ -1,10 +1,12 @@
 # Classificador Naive Bayes
+### Descrição
 Treinando um modelo por aprendizagem bayesiana e aplicando em uma base de dados para classificar registros(Censo de 1994 - EUA).
-Objetivo: Prever se um americano possui renda anual <= ou > 50 mil dólares por ano.
 
-Base Line Classifier = 0.7559 (ZeroR)
+O objetivo é prever se uma pessoa possui renda anual <= ou > 50 mil dólares por ano.
 
-### Resultados - Validação Cruzada - StratifiedKFold
+**Percentual Mínimo** -> Base Line Classifier = 0.7559 (ZeroR).
+
+### Resultados Atingidos - Validação Cruzada - StratifiedKFold - 
 **Precisão** | **Pré-Processamentos** | **Desvio Padrão**
 | :------: | :------: | :------: |
 0.7950 | LabelEncoder | 0.0083
@@ -27,11 +29,6 @@ A diagonal principal (em negrito) destaca os registros classificados corretament
 - Pandas
 - Sklearn
 - Numpy
-
-### Pré-processamentos usados:
-- LabelEnconder;
-- OneHotEncoder;
-- StandardScaler;
 
 ### Ferramentas Usadas:
 - Anaconda
