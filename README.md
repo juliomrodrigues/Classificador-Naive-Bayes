@@ -28,7 +28,7 @@ A diagonal principal (em negrito) destaca os registros classificados corretament
 - Sklearn
 - Numpy
 
-### Técnicas de Pré-Processamento e Tratamento dos dados usada:
+### Pré-processamentos usados:
 - LabelEnconder;
 - OneHotEncoder;
 - StandardScaler;
