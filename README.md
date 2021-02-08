@@ -44,7 +44,7 @@ A diagonal principal (em negrito) destaca os registros classificados corretament
 - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
 
 ### Como usar:
-1. Faça o download do classificador ja treinado dispoível neste mesmo repositório [aqui](https://github.com/juliomrodrigues/Classificador-Naive-Bayes/blob/main/classificador_naive_bayes.sav).
+1. Faça o download do classificador já treinado dispoível neste mesmo repositório [aqui](https://github.com/juliomrodrigues/Classificador-Naive-Bayes/blob/main/classificador_naive_bayes.sav).
 2. Abra o arquivo.py que deseja usar o classificador ou então crie um novo.
 3. Execute o código abaixo para fazer a importação:
 ~~~~python
