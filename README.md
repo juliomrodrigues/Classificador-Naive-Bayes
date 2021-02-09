@@ -46,6 +46,7 @@ import pickle
 naive_bayes = pickle.load(open('classificador_naive_bayes.sav', 'rb'))
 ~~~~~
 4. Pronto, agora o classficador está pronto para ser usado.
+5. Se desejar treinar um novo classificador, faça o download do arquivo de treinamento e execute novas combinações de pré-processamentos e parâmetros [aqui](https://github.com/juliomrodrigues/Classificador-Naive-Bayes/blob/main/treinamento_naive_bayes.py).
 
 #### Outros Classificadores:
 - [Árvore de Decisão](https://github.com/juliomrodrigues/Arvore-de-Decisao)
